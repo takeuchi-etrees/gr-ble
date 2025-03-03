@@ -580,7 +580,7 @@ blocks:
 connections:
 - [analog_simple_squelch_cc_0, '0', low_pass_filter_0, '0']
 - [analog_simple_squelch_cc_0_0, '0', low_pass_filter_0_0, '0']
-- [blocks_add_xx_0, '0', blocks_float_to_complex_0, '1']
+- [blocks_add_xx_0, '0', blocks_float_to_complex_0, '0']
 - [blocks_complex_to_arg_0, '0', blocks_sub_xx_0, '0']
 - [blocks_complex_to_arg_0, '0', qtgui_time_sink_x_0_1_0, '0']
 - [blocks_complex_to_arg_1, '0', blocks_sub_xx_0, '1']
@@ -603,7 +603,7 @@ connections:
 - [blocks_multiply_xx_0_0_0, '0', blocks_add_xx_0, '0']
 - [blocks_multiply_xx_0_0_0_0, '0', blocks_add_xx_0, '1']
 - [blocks_sub_xx_0, '0', qtgui_time_sink_x_0_1_0, '2']
-- [blocks_sub_xx_1, '0', blocks_float_to_complex_0, '0']
+- [blocks_sub_xx_1, '0', blocks_float_to_complex_0, '1']
 - [iio_fmcomms2_source_0, '0', blocks_correctiq_0, '0']
 - [iio_fmcomms2_source_0, '1', blocks_correctiq_0_0, '0']
 - [low_pass_filter_0, '0', blocks_complex_to_arg_0, '0']
